@@ -1,0 +1,36 @@
+body {
+    background-color: #EAF6F6;
+}
+
+
+/*         hr {
+    border: none;
+    border-color: #808080;
+    background-color: #808080;
+    height: 3px;
+} */
+
+hr {
+    border: none;
+    border-style: dotted none none;
+    border-color: #808080;
+    border-width: 7px;
+    background-color: #EAF6F6;
+    height: 0px;
+    width: 5%;
+}
+
+h1 {
+    color: #66BFBF;
+    font-family: cursive;
+}
+
+h3 {
+    color: #66BFBF;
+}
+
+table#footertbl {
+    text-align: center;
+    border-spacing: 20px;
+    border-collapse: separate;
+}
