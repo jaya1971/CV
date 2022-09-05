@@ -1,14 +1,16 @@
+/********************************* TAG SELECTORS*********************************/
+
 body {
     background-color: #EAF6F6;
 }
 
+h1 {
+    color: #66BFBF;
+}
 
-/*         hr {
-    border: none;
-    border-color: #808080;
-    background-color: #808080;
-    height: 3px;
-} */
+h3 {
+    color: #66BFBF;
+}
 
 hr {
     border: none;
@@ -20,17 +22,45 @@ hr {
     width: 5%;
 }
 
-h1 {
+
+/********************************* CLASS SELECTORS*********************************/
+
+.MyName {
     color: #66BFBF;
     font-family: cursive;
 }
 
-h3 {
-    color: #66BFBF;
+
+/********************************* ID SELECTORS*********************************/
+
+#footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
 }
 
-table#footertbl {
-    text-align: center;
-    border-spacing: 20px;
+#footertbl {
     border-collapse: separate;
+    border-spacing: 20px;
+    text-align: center;
 }
+
+
+/******************************************************************/
+
+
+/* table#footertbl {
+    border-collapse: separate;
+    border-spacing: 20px;
+    table-layout: auto;
+    text-align: center;
+    width: 100%;
+} */
+
+
+/*         hr {
+    border: none;
+    border-color: #808080;
+    background-color: #808080;
+    height: 3px;
+} */
