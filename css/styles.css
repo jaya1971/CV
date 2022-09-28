@@ -27,14 +27,15 @@ hr {
 
 .MyName {
     color: #66BFBF;
-    font-family: cursive;
+    font-family: Brush Script MT, cursive;
+    font-size: 30pt;
 }
 
 
 /********************************* ID SELECTORS*********************************/
 
 #footer {
-    bottom: 0;
+    bottom: 0px;
     position: fixed;
     width: 100%;
 }
